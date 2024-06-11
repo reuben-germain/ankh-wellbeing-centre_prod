@@ -131,7 +131,6 @@ h2 {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 20px;
-    border: solid 2px tomato;
 }
 
 .product-card {
@@ -173,5 +172,46 @@ h2 {
 }
 
 .product-card button:hover {
-    background-color: #575757;
+    background-color: #f9c80e;
+    color: #354f52;
+    transition: background-color 0.3s ease;
+    transform: translateY(-5px);
+}
+
+/* Responsive Styles for Product Section */
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .header-title {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 1.6em;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    .product-cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }
