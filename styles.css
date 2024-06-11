@@ -48,7 +48,6 @@ body {
     display: block;
     margin: auto;
     width: 25%;
-    border-bottom: 2px solid white;
 }
 
 .hamburger {
@@ -204,10 +203,8 @@ h2 {
         font-size: 1.6em;
     }
 
-    .hero img {
-        width: 100%;
-        height: auto;
-        border-radius: 50px;
+    .hero-content p {
+        padding: 10px;
     }
 
     .product-cards {
