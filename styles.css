@@ -93,7 +93,7 @@ body {
     }
 }
 
-/* HERO SECTION */
+/* Hero Section */
 .hero {
     background-color: #F9C80E;
     color: #354F52;
@@ -118,4 +118,9 @@ body {
 .cta-button:hover{
     transform: translateY(-5px);
     transition: transform 0.3s ease;
+}
+
+/* Product Section */
+.product-card{
+    display: grid;
 }
