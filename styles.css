@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
+/* Navbar Section */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -32,10 +36,19 @@ body {
     text-decoration: none;
     padding: 10px;
     transition: background-color 0.3s;
+    position: relative;
 }
 
 .nav-links a:hover {
     background-color: #575757;
+}
+
+.nav-links a.active::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 25%;
+    border-bottom: 2px solid white;
 }
 
 .hamburger {
@@ -44,8 +57,7 @@ body {
     cursor: pointer;
 }
 
-/* Responsive Styles */
-
+/* Responsive Styles for Navbar Section */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -60,21 +72,50 @@ body {
         border-top: 1px solid #354f52;
     }
 
+    .nav-links a.active::after {
+        width: 5%;
+    }
+
     .hamburger {
         display: block;
     }
+}
 
-    @media (max-width: 1024px) {
-        .header-title {
-            font-size: 1.2em;
-        }
+@media (max-width: 1024px) {
+    .header-title {
+        font-size: 1.2em;
     }
-    
-    @media (min-width: 1025px) and (max-width: 1440px) {
-        .header-title {
-            font-size: 1.3em;
-        }
+}
 
-
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .header-title {
+        font-size: 1.3em;
     }
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: #F9C80E;
+    color: #354F52;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #354F52;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
 }
