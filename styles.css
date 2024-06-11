@@ -178,7 +178,7 @@ h2 {
 }
 
 /* Responsive Styles for Product Section */
-/* Media query for mobile devices */
+/* Media query for mobile - portrait */
 @media (max-width: 768px) {
     .header-title {
         padding: 10px;
@@ -209,6 +209,27 @@ h2 {
 
     .product-cards {
         grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+}
+/* Media query for mobile - landscape */
+@media (min-width: 576px) {
+    .product-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+/* Media query for tablet - portrait */
+@media (min-width: 769px) {
+    .product-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+/* Media query for tablet - landscape */
+@media (min-width: 992px) {
+    .product-cards {
+        grid-template-columns: repeat(4, 1fr);
         gap: 10px;
     }
 }
