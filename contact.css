@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Section */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -66,17 +71,14 @@
         width: 100%;
         background-color: #354f52;
     }
-
     .nav-links a {
         text-align: center;
         padding: 15px;
         border-top: 1px solid #354f52;
     }
-
     .nav-links a.active::after {
         width: 5%;
     }
-
     .hamburger {
         display: block;
     }
@@ -87,23 +89,13 @@
         font-size: 1.2em;
     }
 }
-
 @media (min-width: 1025px) and (max-width: 1440px) {
     .header-title {
         font-size: 1.3em;
     }
 }
 
-/*
-body{
-  min-height: 100vh;
-  width: 100%;
-  background: #c8e8e9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
+/* Contact Form Section */
 .container{
   width: 85%;
   background: #fff;
@@ -125,6 +117,7 @@ body{
   justify-content: center;
   margin-top: 15px;
   position: relative;
+  border: solid 1px royalblue;
 }
 .content .left-side::before{
   content: '';
@@ -153,26 +146,33 @@ body{
 .content .left-side .details .text-two{
   font-size: 14px;
   color: #afafb6;
+  border: solid 1px orange;
 }
 .container .content .right-side{
   width: 75%;
   margin-left: 75px;
+  border: solid 1px green;
 }
 .content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
   color: #3e2093;
+  border: #3e2093 solid 1px;
 }
+
+
 .right-side .input-box{
   height: 50px;
   width: 100%;
   margin: 12px 0;
+  border: solid 1px goldenrod;
 }
 .right-side .input-box input,
 .right-side .input-box textarea{
   height: 100%;
   width: 100%;
-  border: none;
+  border: solid 1px red;
+  /* border: none; */
   outline: none;
   font-size: 16px;
   background: #F0F1F8;
@@ -190,6 +190,7 @@ body{
   display: inline-block;
   margin-top: 12px;
 }
+
 .right-side .button input[type="button"]{
   color: #fff;
   font-size: 18px;
@@ -205,6 +206,7 @@ body{
   background: #5029bc;
 }
 
+/*
 @media (max-width: 950px) {
   .container{
     width: 90%;
@@ -238,5 +240,4 @@ body{
    margin-left: 0;
  }
 }
-
-*/
+ */
