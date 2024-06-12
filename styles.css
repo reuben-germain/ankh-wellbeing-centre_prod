@@ -98,7 +98,6 @@ body {
     color: #354F52;
     text-align: center;
     padding: 100px 0;
-    border: solid 2px red;
 }
 
 .hero-content h1 {
@@ -258,7 +257,7 @@ h2 {
 /* Media Queries */
 @media (max-width: 768px) {
     .hero img {
-        width: 80%;
+        width: 60%;
     }
 }
 
