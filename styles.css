@@ -258,7 +258,7 @@ h2 {
 /* Media Queries */
 @media (max-width: 768px) {
     .hero img {
-        width: 90%;
+        width: 80%;
     }
 }
 
