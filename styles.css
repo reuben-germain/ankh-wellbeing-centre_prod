@@ -269,3 +269,12 @@ h2 {
         width: 80%;
     }
 }
+
+/* Footer Section */
+footer {
+    background-color: #354F52;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
