@@ -11,6 +11,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Judson', serif;
     padding: 10px 20px;
     background-color: #354f52;
     color: #fff;
@@ -41,6 +43,7 @@ body {
 
 .nav-links a:hover {
     background-color: #575757;
+    color: #F9C80E;
 }
 
 .nav-links a.active::after {
