@@ -117,7 +117,6 @@ body {
   justify-content: center;
   margin-top: 15px;
   position: relative;
-  border: solid 1px royalblue;
 }
 .content .left-side::before{
   content: '';
@@ -135,7 +134,7 @@ body {
 }
 .content .left-side .details i{
   font-size: 30px;
-  color: #3e2093;
+  color: #354f52;
   margin-bottom: 10px;
 }
 .content .left-side .details .topic{
@@ -146,33 +145,26 @@ body {
 .content .left-side .details .text-two{
   font-size: 14px;
   color: #afafb6;
-  border: solid 1px orange;
 }
 .container .content .right-side{
   width: 75%;
   margin-left: 75px;
-  border: solid 1px green;
 }
 .content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
-  color: #3e2093;
-  border: #3e2093 solid 1px;
+  color: #354f52;
 }
-
-
 .right-side .input-box{
   height: 50px;
   width: 100%;
   margin: 12px 0;
-  border: solid 1px goldenrod;
 }
 .right-side .input-box input,
 .right-side .input-box textarea{
   height: 100%;
   width: 100%;
-  border: solid 1px red;
-  /* border: none; */
+  border: none;
   outline: none;
   font-size: 16px;
   background: #F0F1F8;
@@ -182,6 +174,7 @@ body {
 }
 .right-side .message-box{
   min-height: 110px;
+  border: solid 3px powderblue;
 }
 .right-side .input-box textarea{
   padding-top: 6px;
@@ -198,12 +191,13 @@ body {
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #3e2093;
+  background: #354f52;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button input[type="button"]:hover{
-  background: #5029bc;
+  background: #F9C80E;
+  color: black;
 }
 
 /*
@@ -241,3 +235,49 @@ body {
  }
 }
  */
+
+ /* Footer Section */
+footer {
+    background-color: #354F52;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+ul li {
+    list-style: none;
+}
+.credits{
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    display: none;
+}
+.social-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+}
+.social-icons img {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 20px 10px;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-family: 'Caveat', cursive;
+    font-family: 'Judson', serif;
+    }
+    .credits {
+        font-size: 0.5rem;
+        display: none;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+}
