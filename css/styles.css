@@ -494,11 +494,118 @@ ul li {
 
  /* About Section */
 .row {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
+.container-0 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    /* margin-left: 100px; */
+}
+
+.container-1 {
+    flex-direction: column;
+}
+
+.column {
+    box-sizing: border-box; /* Ensures padding/margin do not affect the width calculation */
+    padding: 10px; /* Adjust padding as needed */
+    margin: 0 auto;
+}
+
+.column .image {
+    border-radius: 20px;
+}
+
+@media (min-width: 480px) {
+    .container-1 {
+        flex-direction: row;
+    }
+    .column {
+        flex: 0 0 50%;
+    }
+    .column img {
+        width: 100%; /* Ensures the image fits within its column */
+        height: auto; /* Maintains aspect ratio of the image */
+    }
+}
+@media (min-width: 768px) {
+    .container-1 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .column {
+        flex: 0 0 50%;
+    }
+    .container-1 .column img {
+        width: 60%; /* Ensures the image fits within its column */
+        height: auto; /* Maintains aspect ratio of the image */
+    }
+    .container-2 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .column {
+        flex: 0 0 50%;
+    }
+    .container-2 .column img {
+        width: 60%; /* Ensures the image fits within its column */
+        height: auto; /* Maintains aspect ratio of the image */
+        
+    }
+    .container-3 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .column {
+        flex: 0 0 50%;
+    }
+    .container-3 .column img {
+        width: 60%; /* Ensures the image fits within its column */
+        height: auto; /* Maintains aspect ratio of the image */
+        
+    }
+    .container-4 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .column {
+        flex: 0 0 50%;
+    }
+    .container-4 .column img {
+        width: 80%; /* Ensures the image fits within its column */
+        height: auto; /* Maintains aspect ratio of the image */
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .container-0 {
     display: flex;
     flex-direction: column;
@@ -548,3 +655,4 @@ ul li {
         flex: 0 0 33.33%;
     }
 }
+*/
