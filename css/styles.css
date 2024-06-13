@@ -6,7 +6,7 @@ body {
     font-family: "Poppins" Arial, sans-serif;
 }
 
-/* Navbar Section */
+/* NAVBAR SECTION */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -59,7 +59,7 @@ body {
     cursor: pointer;
 }
 
-/* Responsive Styles for Navbar Section */
+/* Responsive Styles for NAVBAR SECTION */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -95,7 +95,7 @@ body {
     }
 }
 
-/* Hero Section - Content */
+/* HERO SECTION - Content */
 .hero {
     background-color: #F9C80E;
     color: #354F52;
@@ -122,7 +122,7 @@ body {
     transition: transform 0.3s ease;
 }
 
-/* Product Section - Cards */
+/* PRODUCT SECTION - Cards */
 h2 {
     text-align: center;
     padding-top: 20px;
@@ -180,7 +180,7 @@ h2 {
     transform: translateY(-5px);
 }
 
-/* Responsive Styles for Product Section */
+/* Responsive Styles for PRODUCT SECTION */
 @media (max-width: 768px) {
     .header-title {
         padding: 10px;
@@ -236,7 +236,7 @@ h2 {
     }
 }
 
-/* Hero Section - Image */
+/* HERO SECTION - Image */
 .hero-img-container {
     display: flex;
     justify-content: center;
@@ -257,7 +257,7 @@ h2 {
     object-fit: cover;
 }
 
-/* Responsive Styles for Hero Image */
+/* Responsive Styles for HERO IMAGE */
 @media (max-width: 768px) {
     .hero img {
         width: 60%;
@@ -270,7 +270,7 @@ h2 {
     }
 }
 
-/* Footer Section */
+/* FOOTER SECTION */
 footer {
     background-color: #354F52;
     font-size: 25px;
@@ -321,7 +321,7 @@ ul li {
     }
 }
 
-/* Contact Form Section */
+/* CONTACT SECTION */
 .container {
     width: 85%;
     background: #fff;
@@ -440,7 +440,7 @@ ul li {
     color: black;
 }
 
-/* Responsive Styles for Contact Form Section */
+/* Responsive Styles for CONTACT SECTION */
 @media (max-width: 950px) {
     .container {
         width: 90%;
@@ -480,21 +480,39 @@ ul li {
         margin-left: 0;
     }
 }
- @media (max-width: 768px) {
+
+@media (max-width: 768px) {
     .right-side p {
         font-size: .8rem;
         max-width: 240px;
     }
+
     .right-side .input-box {
         height: 50px;
         width: 80%;
         margin: 12px 0;
     }
- }
+}
 
- /* About Section */
- .row {
-    margin-bottom: 1.25rem; /* Space between the story section and the containers */
+@media (max-width: 479px) {
+    .container {
+        border: solid 2px #354f52;
+        box-shadow: #575757;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .container {
+        border: solid 2px #354f52;
+        box-shadow: #575757;
+    }
+
+}
+
+/* About Section */
+.row {
+    margin-bottom: 1.25rem;
+    /* Space between the story section and the containers */
 }
 
 section {
@@ -520,6 +538,7 @@ section {
     height: auto;
     border-radius: 0.625rem;
 }
+
 .container-5 {
     margin-bottom: 2.5rem;
 }
@@ -528,6 +547,7 @@ section {
     .row {
         padding: 1.25rem;
     }
+
     .container-0 {
         grid-template-columns: 1fr;
     }
@@ -537,6 +557,7 @@ section {
     .row {
         padding: 1.25rem;
     }
+
     .container-0 {
         grid-template-columns: 1fr 1fr;
     }
@@ -546,25 +567,31 @@ section {
     .row {
         padding: 1.25rem;
     }
+
     .container-0 {
         grid-template-columns: 1fr 1fr;
     }
+
     .container-1 .column img {
         width: 15.625rem;
         height: auto;
     }
+
     .container-2 .column img {
         width: 15.625rem;
         height: auto;
     }
+
     .container-3 .column img {
         width: 15.625rem;
         height: auto;
     }
+
     .container-4 .column img {
         width: 18.75rem;
         height: auto;
     }
+
     .container-5 .column img {
         width: 18.75rem;
         height: auto;
@@ -575,9 +602,11 @@ section {
     .row {
         padding: 1.25rem;
     }
+
     .container-0 {
         grid-template-columns: 1fr 1fr;
     }
+
     .column img {
         width: 6.25rem;
         height: auto;
@@ -588,9 +617,11 @@ section {
     .row {
         padding: 1.25rem;
     }
+
     .container-0 {
         grid-template-columns: 1fr 1fr;
     }
+
     .column img {
         width: 6.25rem;
         height: auto;
