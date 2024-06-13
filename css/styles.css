@@ -14,7 +14,7 @@ body {
     font-family: 'Caveat', cursive;
     font-family: 'Judson', serif;
     padding: 10px 20px;
-    background-color: #354f52;
+    background-color: #14532d;
     color: #fff;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .nav-links a:hover {
-    background-color: #575757;
+    background-color: #16a34a;
     color: #F9C80E;
 }
 
@@ -65,13 +65,13 @@ body {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: #354f52;
+        background-color: #14532d;
     }
 
     .nav-links a {
         text-align: center;
         padding: 15px;
-        border-top: 1px solid #354f52;
+        border-top: 1px solid #14532d;
     }
 
     .nav-links a.active::after {
@@ -98,7 +98,7 @@ body {
 /* HERO SECTION - Content */
 .hero {
     background-color: #F9C80E;
-    color: #354F52;
+    color: #14532d;
     text-align: center;
     padding: 100px 0;
 }
@@ -110,8 +110,9 @@ body {
 
 .cta-button {
     display: inline-block;
-    background-color: #354F52;
+    background-color: #14532d;
     color: #fff;
+    margin-top: 20px;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -165,7 +166,7 @@ h2 {
 }
 
 .product-card button {
-    background-color: #354F52;
+    background-color: #14532d;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -174,8 +175,8 @@ h2 {
 }
 
 .product-card button:hover {
-    background-color: #f9c80e;
-    color: #354f52;
+    background-color: #16a34a;
+    color: #14532d;
     transition: background-color 0.3s ease;
     transform: translateY(-5px);
 }
@@ -272,7 +273,7 @@ h2 {
 
 /* FOOTER SECTION */
 footer {
-    background-color: #354F52;
+    background-color: #14532d;
     font-size: 25px;
     color: #fff;
     text-align: center;
@@ -365,7 +366,7 @@ ul li {
 
 .content .left-side .details i {
     font-size: 30px;
-    color: #354f52;
+    color: #14532d;
     margin-bottom: 10px;
 }
 
@@ -388,7 +389,7 @@ ul li {
 .content .right-side .topic-text {
     font-size: 23px;
     font-weight: 600;
-    color: #354f52;
+    color: #14532d;
 }
 
 .right-side .input-box {
@@ -430,14 +431,14 @@ ul li {
     border: none;
     padding: 8px 16px;
     border-radius: 6px;
-    background: #354f52;
+    background: #14532d;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .button input[type="button"]:hover {
-    background: #F9C80E;
-    color: black;
+    background: #16a34a;
+    color: #F9C80E;
 }
 
 /* Responsive Styles for CONTACT SECTION */
@@ -501,7 +502,7 @@ ul li {
         justify-content: center;
     }
     .content {
-        border: solid 3px #354f52;
+        border: solid 3px #14532d;
         box-shadow: #575757;
         padding: 10px;
         border-radius: 10px;
@@ -516,7 +517,7 @@ ul li {
         justify-content: center;
     }
     .content {
-        border: solid 3px #354f52;
+        border: solid 3px #14532d;
         box-shadow: #575757;
         padding: 10px;
         border-radius: 10px;

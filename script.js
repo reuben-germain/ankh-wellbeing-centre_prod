@@ -35,7 +35,7 @@ products.forEach(product => {
             <img src="images/${product.image}" alt="${product.name}" class="w-full h-48 object-cover mb-2">
             <p class="text-gray-700 mb-2">${product.description}</p>
             <p class="text-green-600 font-bold text-lg mb-2">${product.price}</p>
-            <button class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600">Buy</button>
+            <button class="bg-green-900 text-white py-2 px-4 rounded hover:bg-green-600">Buy</button>
         </div>
     `;
     
