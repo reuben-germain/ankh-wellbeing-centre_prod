@@ -590,7 +590,7 @@ section {
 
     .container-1 .column img {
         width: 15.625rem;
-        height: auto;
+        /* height: auto; */
     }
 
     .container-2 .column img {
