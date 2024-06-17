@@ -441,6 +441,48 @@ ul li {
     color: #F9C80E;
 }
 
+.map-div {
+    background-color: #f9f9f9;
+    padding-bottom: 30%;
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    /* Adjust as needed */
+    margin: 2rem auto;
+}
+
+.map-div iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+@media (min-width: 600px) {
+    .map-div {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .map-div {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .map-div {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .map-div {
+        width: 50%;
+    }
+}
+
 /* Responsive Styles for CONTACT SECTION */
 @media (max-width: 950px) {
     .container {
@@ -501,6 +543,7 @@ ul li {
         align-items: center;
         justify-content: center;
     }
+
     .content {
         border: solid 3px #14532d;
         box-shadow: #575757;
@@ -516,6 +559,7 @@ ul li {
         align-items: center;
         justify-content: center;
     }
+
     .content {
         border: solid 3px #14532d;
         box-shadow: #575757;
@@ -526,7 +570,7 @@ ul li {
 
 }
 
-/* About Section */
+/* ABOUT SECTION */
 .row {
     margin-bottom: 1.25rem;
     /* Space between the story section and the containers */
