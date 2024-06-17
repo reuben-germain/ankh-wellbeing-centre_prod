@@ -549,7 +549,7 @@ ul li {
     }
 
     .content {
-        border: solid 3px #14532d;
+        /* border: solid 3px #14532d; */
         box-shadow: 2px 2px 5px#575757;
         padding: 10px;
         border-radius: 10px;
