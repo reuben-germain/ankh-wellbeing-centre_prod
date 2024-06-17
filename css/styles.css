@@ -591,7 +591,7 @@ section {
 
     .container-1 .column img {
         width: 15.625rem;
-        /* height: auto; */
+        height: auto;
     }
 
     .container-2 .column img {
@@ -625,7 +625,7 @@ section {
     }
 
     .column img {
-        width: 6.25rem;
+        width: 25rem;
         height: auto;
     }
 }
@@ -640,7 +640,7 @@ section {
     }
 
     .column img {
-        width: 6.25rem;
+        width: 25rem;
         height: auto;
     }
 }
