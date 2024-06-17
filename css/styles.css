@@ -62,6 +62,10 @@ body {
 
 /* Responsive Styles for NAVBAR SECTION */
 @media (max-width: 768px) {
+    .logo img {
+        width: 90px;
+        height: auto;
+    }
     .nav-links {
         display: none;
         flex-direction: column;
@@ -187,11 +191,6 @@ h2 {
     .header-title {
         padding: 10px;
         font-size: 1.2em;
-    }
-
-    .logo img {
-        width: 40px;
-        height: 40px;
     }
 
     nav ul {
