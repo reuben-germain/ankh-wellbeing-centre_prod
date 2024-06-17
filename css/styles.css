@@ -113,6 +113,10 @@ body {
     margin-bottom: 20px;
 }
 
+h2 {
+    font-weight: bolder;
+}
+
 .cta-button {
     display: inline-block;
     background-color: #14532d;
@@ -571,6 +575,19 @@ ul li {
 }
 
 /* ABOUT SECTION */
+.about {
+    padding: 3.125rem 3.125rem;
+}
+
+.about h2 {
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.about h3 {
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
 .row {
     margin-bottom: 1.25rem;
     /* Space between the story section and the containers */
