@@ -3,7 +3,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Poppins" Arial, sans-serif;
+    font-family: 'Judson', serif;
 }
 
 /* NAVBAR SECTION */
@@ -11,11 +11,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Caveat', cursive;
-    font-family: 'Judson', serif;
     padding: 10px 20px;
     background-color: #14532d;
     color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo img {
